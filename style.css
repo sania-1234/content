@@ -1,0 +1,219 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #4CAF50;
+}
+
+header p {
+    font-size: 20px;
+    color: #777;
+}
+
+/* Categories Section Styling */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Category Styling */
+.category {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Increased the width of the category */
+    text-align: center;
+}
+
+.category h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Image Grid */
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Increased gap between images */
+}
+
+.images img {
+    width: 100%; /* Ensures images are responsive */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    max-width: 350px; /* Increased the maximum width of images */
+    max-height: 250px; /* Increased the height */
+}
+
+/* Hover Effect - Increase image size */
+.images img:hover {
+    transform: scale(1.1); /* Increased zoom effect on hover */
+}
+/* Footer Styling */
+footer {
+    background: linear-gradient(to right, #4CAF50, #3e8e41); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 40px 20px; /* Increased padding for better spacing */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect to separate from content */
+}
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin-bottom: 100px; /* Adding space for the footer */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #4CAF50;
+}
+
+header p {
+    font-size: 20px;
+    color: #777;
+}
+
+/* Categories Section Styling */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Category Styling */
+.category {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.category h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Image Grid */
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; /* Increased gap between images */
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    max-width: 350px;
+    max-height: 250px;
+}
+
+/* Hover Effect - Increase image size */
+.images img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(to right, #4CAF50, #3e8e41); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 40px 20px; /* Increased padding for better spacing */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect to separate from content */
+}
+
+/* Footer text styling */
+footer p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer link styling */
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 50 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for links */
+footer a:hover {
+    background-color: #333;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Footer mobile responsiveness */
+@media (max-width: 600px) {
+    footer {
+        padding: 30px 15px; /* Less padding on small screens */
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a {
+        font-size: 14px; /* Slightly smaller links */
+    }
+}
